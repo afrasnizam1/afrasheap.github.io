@@ -1,120 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Amplitude Tag -->
-<script src="https://cdn.amplitude.com/script/AMPLITUDE_API_KEY.js"></script>
-<script>
-  window.amplitude.init('ZAeIpT6z7_bKabtKGKA9a8brIYQIiQhO', {
-    "fetchRemoteConfig":true, "autocapture":true
-  });
-</script>
-    <!-- Amplitude Tag -->
-
-    
-  
-  <!-- Segment Tag -->
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="uvEioQJAVf6xU7mxzPl2wgFxzbS5eLRk";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("uvEioQJAVf6xU7mxzPl2wgFxzbS5eLRk");
-  analytics.page();
-  }}();
-</script>
-<!-- Segment Tag -->
-
-  <!-- Heap Tag -->
-  <script type="text/javascript">
-  window.heapReadyCb=window.heapReadyCb||[],window.heap=window.heap||[],heap.load=function(e,t){window.heap.envId=e,window.heap.clientConfig=t=t||{},window.heap.clientConfig.shouldFetchServerConfig=!1;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://cdn.us.heap-api.com/config/"+e+"/heap_config.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(a,r);var n=["init","startTracking","stopTracking","track","resetIdentity","identify","getSessionId","getUserId","getIdentity","addUserProperties","addEventProperties","removeEventProperty","clearEventProperties","addAccountProperties","addAdapter","addTransformer","addTransformerFn","onReady","addPageviewProperties","removePageviewProperty","clearPageviewProperties","trackPageview"],i=function(e){return function(){var t=Array.prototype.slice.call(arguments,0);window.heapReadyCb.push({name:e,fn:function(){heap[e]&&heap[e].apply(heap,t)}})}};for(var p=0;p<n.length;p++)heap[n[p]]=i(n[p])};
-  heap.load("2039001180");
-</script>
-  <!-- Heap Tag -->
-
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5XMV7L7D');</script>
-<!-- End Google Tag Manager -->
-
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Your ultimate fitness destination to achieve a healthy and fit lifestyle.">
   <title>FitHub Gym - Fitness and Wellness</title>
   <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XMV7L7D"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
   <header>
     <nav>
       <div class="logo">
         <a href="#">FitHub</a>
       </div>
       <ul class="nav-links">
-       <li><a href="#home">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#classes">Classes</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#careers">Careers</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <div class="hero">
-      <h1>Transform Your Fitness Journey</h1>
-      <p>Join FitHub Gym and unlock your full potential!</p>
-      <a href="#services" class="cta-btn">Get Started</a>
-    </div>
   </header>
 
-  <section id="about">
+  <section id="membership">
     <div class="container">
-      <h2>About Us</h2>
-      <p>FitHub Gym is a place where fitness meets passion. Our team of certified trainers is dedicated to helping you achieve your fitness goals in a motivating, fun, and safe environment. Whether you're just starting or you're an experienced athlete, FitHub has something for everyone.</p>
-    </div>
-  </section>
-
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="service-cards">
-        <div class="service-card">
-          <h3>Personal Training</h3>
-          <p>Get personalized training sessions tailored to your fitness level and goals.</p>
-        </div>
-        <div class="service-card">
-          <h3>Group Classes</h3>
-          <p>Join fun and motivating group classes like yoga, HIIT, cycling, and more.</p>
-        </div>
-        <div class="service-card">
-          <h3>Nutrition Guidance</h3>
-          <p>Work with our experts to develop a nutrition plan that supports your fitness goals.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="classes">
-    <div class="container">
-
-<br>
-
-      
-      <h2>Our Classes</h2>
-      <p>Explore our variety of fitness classes for all skill levels:</p>
+      <h2>Membership Plans</h2>
+      <p>Choose the best plan for your fitness goals.</p>
       <ul>
-        <li>Yoga</li>
-        <li>HIIT</li>
-        <li>Zumba</li>
-        <li>Circuit Training</li>
-        <li>Pilates</li>
+        <li>Basic Plan - $30/month</li>
+        <li>Premium Plan - $50/month</li>
+        <li>Elite Plan - $70/month</li>
       </ul>
-      <a href="#contact" class="cta-btn">Sign Up Now</a>
+    </div>
+  </section>
+
+  <section id="trainers">
+    <div class="container">
+      <h2>Meet Our Trainers</h2>
+      <p>Our certified trainers are here to help you achieve your goals.</p>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <h2>What Our Members Say</h2>
+      <p>Read success stories from our members.</p>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="container">
+      <h2>Fitness Blog</h2>
+      <p>Stay updated with workout tips and nutrition advice.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <p>Get answers to common questions.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p>Check out our gym facilities and events.</p>
+    </div>
+  </section>
+
+  <section id="shop">
+    <div class="container">
+      <h2>Shop</h2>
+      <p>Buy fitness gear, supplements, and more.</p>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="container">
+      <h2>Upcoming Events</h2>
+      <p>Join our fitness challenges and boot camps.</p>
+    </div>
+  </section>
+
+  <section id="careers">
+    <div class="container">
+      <h2>Careers</h2>
+      <p>We're hiring! Join our team of fitness professionals.</p>
     </div>
   </section>
 
@@ -139,7 +121,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <footer>
     <p>&copy; 2024 FitHub Gym. All rights reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
