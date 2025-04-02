@@ -8,12 +8,12 @@
 body {
   font-family: 'Roboto', sans-serif;  /* Google Font */
   background-color: #fff;  /* White background */
-  color: #333;  /* Dark text color */
+  color: #000;  /* Black text color */
 }
 
 /* Header Styles */
 header {
-  background-color: #00aaff; /* Blue background */
+  background-color: #003366; /* Dark blue background */
   padding: 20px;
 }
 
@@ -44,12 +44,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff6f61; /* Pink hover effect */
+  color: #ff0066; /* Dark pink hover effect */
 }
 
 /* Hero Section */
 .hero {
-  background-image: url('images/gym-image1.jpg');
+  background-image: url('images/gym-image1.jpg'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -72,7 +72,7 @@ nav ul li a:hover {
 
 .cta-btn {
   padding: 15px 30px;
-  background-color: #ff6f61; /* Pink background */
+  background-color: #ff0066; /* Dark pink background */
   color: #fff;
   text-decoration: none;
   border-radius: 30px;
@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 .cta-btn:hover {
-  background-color: #ff4c3b; /* Darker pink on hover */
+  background-color: #cc0052; /* Darker dark pink on hover */
 }
 
 /* Services Preview Section */
@@ -94,7 +94,7 @@ nav ul li a:hover {
 
 .services-preview h2 {
   font-size: 2.5rem;
-  color: #00aaff; /* Blue color for headings */
+  color: #003366; /* Dark blue color for headings */
   margin-bottom: 30px;
 }
 
@@ -130,18 +130,18 @@ nav ul li a:hover {
 
 .service h3 {
   font-size: 1.8rem;
-  color: #00aaff;
+  color: #003366;
   margin-bottom: 10px;
 }
 
 .service p {
   font-size: 1.1rem;
-  color: #666;
+  color: #333;
 }
 
 /* Footer Styles */
 footer {
-  background-color: #00aaff;
+  background-color: #003366; /* Dark blue background */
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -160,7 +160,7 @@ footer p {
 
 .membership h1 {
   font-size: 2.5rem;
-  color: #00aaff;
+  color: #003366; /* Dark blue for headings */
   margin-bottom: 40px;
 }
 
@@ -176,7 +176,7 @@ footer p {
 }
 
 .plan h2 {
-  color: #ff6f61;
+  color: #ff0066; /* Dark pink for plan titles */
   font-size: 2rem;
   margin-bottom: 20px;
 }
@@ -194,7 +194,7 @@ footer p {
 .plan ul li::before {
   content: "✓";
   margin-right: 10px;
-  color: #00aaff;
+  color: #003366;
 }
 
 /* Contact Section */
@@ -206,7 +206,7 @@ footer p {
 
 .contact h1 {
   font-size: 2.5rem;
-  color: #00aaff;
+  color: #003366; /* Dark blue for headings */
   margin-bottom: 30px;
 }
 
@@ -239,7 +239,7 @@ footer p {
 }
 
 .contact-form button {
-  background-color: #ff6f61;
+  background-color: #ff0066; /* Dark pink for button */
   color: #fff;
   padding: 15px 30px;
   border: none;
@@ -251,7 +251,7 @@ footer p {
 }
 
 .contact-form button:hover {
-  background-color: #ff4c3b;
+  background-color: #cc0052; /* Darker dark pink on hover */
 }
 
 @media (max-width: 768px) {
@@ -269,4 +269,3 @@ footer p {
     width: 80%;
   }
 }
-
