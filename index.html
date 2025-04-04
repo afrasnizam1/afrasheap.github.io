@@ -3,81 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Achieve your fitness goals with FitHub Gym.">
-  <title>FitHub Gym - Home</title>
-  <link rel="stylesheet" href="css/styles.css">
-  
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-
-<link rel="stylesheet" href="styles.css">
-
-
-<script type="text/javascript">
-  window.heapReadyCb=window.heapReadyCb||[],window.heap=window.heap||[],heap.load=function(e,t){window.heap.envId=e,window.heap.clientConfig=t=t||{},window.heap.clientConfig.shouldFetchServerConfig=!1;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://cdn.us.heap-api.com/config/"+e+"/heap_config.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(a,r);var n=["init","startTracking","stopTracking","track","resetIdentity","identify","getSessionId","getUserId","getIdentity","addUserProperties","addEventProperties","removeEventProperty","clearEventProperties","addAccountProperties","addAdapter","addTransformer","addTransformerFn","onReady","addPageviewProperties","removePageviewProperty","clearPageviewProperties","trackPageview"],i=function(e){return function(){var t=Array.prototype.slice.call(arguments,0);window.heapReadyCb.push({name:e,fn:function(){heap[e]&&heap[e].apply(heap,t)}})}};for(var p=0;p<n.length;p++)heap[n[p]]=i(n[p])};
-  heap.load("2039001180");
-</script>
-
-  
-<script src="https://cdn.amplitude.com/script/9045d9084bef736c08bcf03e93237df8.js"></script>
-<script>
-  window.amplitude.init('9045d9084bef736c08bcf03e93237df8', {
-    fetchRemoteConfig: true,
-    autocapture: true
-  });
-</script>
-
-  
+  <title>The Wellness Shift with Afras</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+  <!-- Header Section -->
   <header>
-    <nav>
-      <div class="logo">
-        <a href="index.html">FitHub</a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="membership.html">Membership</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>The Wellness Shift with Afras</h1>
+      <p>Your Journey to a Healthier, Happier Life Starts Here</p>
+      <nav>
+        <ul>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#testimonials">Transformations</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#forum">Forum</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to FitHub Gym</h1>
-      <p>Your journey to a healthier life starts here.</p>
-      <a href="membership.html" class="cta-btn">Join Now</a>
+  <!-- Blog Section -->
+  <section id="blog">
+    <div class="container">
+      <h2>Wellness Tips & Articles</h2>
+      <article>
+        <h3>How to Stay Active with a Busy Schedule</h3>
+        <p>Staying active is crucial for maintaining good health, especially when you're busy. Here are some simple strategies to keep moving...</p>
+      </article>
+      <article>
+        <h3>The Benefits of Mindful Eating</h3>
+        <p>Mindful eating can help improve digestion, reduce stress, and support a healthier relationship with food. Learn how...</p>
+      </article>
     </div>
   </section>
 
-  <section class="services-preview">
-    <h2>Our Services</h2>
-    <div class="services">
-      <div class="service">
-        <img src="images/gym-image1.jpg" alt="Personal Training">
-        <h3>Personal Training</h3>
-        <p>Work with expert trainers to achieve your fitness goals.</p>
-      </div>
-      <div class="service">
-        <img src="images/gym-image2.jpg" alt="Group Classes">
-        <h3>Group Classes</h3>
-        <p>Join our fun and motivating group fitness classes.</p>
-      </div>
-      <div class="service">
-        <img src="images/gym-image3.jpg" alt="Nutrition Advice">
-        <h3>Nutrition Advice</h3>
-        <p>Get personalized nutrition plans to fuel your workouts.</p>
-      </div>
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to book a consultation or get in touch, feel free to contact me!</p>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   </section>
 
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <div class="container">
+      <h2>Success Stories</h2>
+      <p>See how people have transformed their lives with healthier habits!</p>
+      <!-- Add testimonial content here -->
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop">
+    <div class="container">
+      <h2>Shop</h2>
+      <p>Explore our fitness programs, meal plans, and more!</p>
+      <!-- Add shop products here -->
+    </div>
+  </section>
+
+  <!-- Forum Section -->
+  <section id="forum">
+    <div class="container">
+      <h2>Community Forum</h2>
+      <p>Join discussions, share tips, and find support from others on the same journey.</p>
+      <!-- Forum content goes here -->
+    </div>
+  </section>
+
+  <!-- Footer Section -->
   <footer>
-    <p>&copy; 2024 FitHub Gym. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 The Wellness Shift with Afras</p>
+    </div>
   </footer>
-
 </body>
 </html>
