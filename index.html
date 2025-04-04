@@ -2,45 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Wellness Shift with Afras</title>
-  <link rel="stylesheet" href="css/styles.css">
-
-
-<link rel="stylesheet" href="style.css">
-
-
+  <link rel="stylesheet" href="style.css">
+  <!-- Optional: Google Fonts for Montserrat and Lato -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header Section -->
+  <!-- Navigation -->
   <header>
-    <div class="container">
-      <h1>The Wellness Shift with Afras</h1>
-      <p>Your Journey to a Healthier, Happier Life Starts Here</p>
-      <nav>
-        <ul>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">The Wellness Shift with Afras</a></h1>
+        <ul class="nav-links">
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
           <li><a href="testimonials.html">Transformations</a></li>
           <li><a href="shop.html">Shop</a></li>
           <li><a href="forum.html">Forum</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <!-- Welcome Section -->
-  <section id="home">
-    <div class="container">
-      <h2>Welcome to Your Wellness Journey!</h2>
-      <p>Start your transformation today by learning healthy habits that can help you fight depression, stress, and improve mental health.</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content container">
+      <h2>Your Journey to a Healthier, Happier Life Starts Here</h2>
+      <p>Discover fitness tips, nutrition advice, and holistic wellness strategies to transform your life.</p>
+      <a href="#features" class="btn">Learn More</a>
     </div>
   </section>
 
-  <!-- Footer Section -->
-  <footer>
+  <!-- Features Section -->
+  <section id="features" class="features">
     <div class="container">
-      <p>&copy; 2025 The Wellness Shift with Afras</p>
+      <h2>What We Offer</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <i class="icon">&#x1F3CB;</i>
+          <h3>Fitness Guidance</h3>
+          <p>Personalized workout routines and expert advice to boost your strength and endurance.</p>
+        </div>
+        <div class="feature-item">
+          <i class="icon">&#x1F374;</i>
+          <h3>Nutrition Plans</h3>
+          <p>Customized meal plans and nutrition tips designed to energize your body and mind.</p>
+        </div>
+        <div class="feature-item">
+          <i class="icon">&#x1F4AC;</i>
+          <h3>Community Support</h3>
+          <p>Join our community forum to connect, share, and grow with like-minded individuals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup Section -->
+  <section class="newsletter">
+    <div class="container">
+      <h2>Stay Updated</h2>
+      <p>Sign up for our newsletter to receive the latest tips, news, and exclusive offers.</p>
+      <form action="#" method="post" class="newsletter-form">
+        <input type="email" name="email" placeholder="Enter your email address" required>
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-info">
+        <h3>The Wellness Shift with Afras</h3>
+        <p>Your Journey to a Healthier, Happier Life Starts Here.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="testimonials.html">Transformations</a>
+        <a href="shop.html">Shop</a>
+        <a href="forum.html">Forum</a>
+      </div>
+      <div class="social-media">
+        <!-- Replace '#' with your social links -->
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2025 The Wellness Shift with Afras. All Rights Reserved.</p>
     </div>
   </footer>
 </body>
